@@ -61,13 +61,12 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- This plugin is used to create a docker image and publish the image to docker hub-->
+			<!-- This plugin is used to create a docker image and publish the image to docker hub
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.10</version>
 				<configuration>
-					<!-- replace `callicoder` with your docker id-->
 					<repository>satan251008/spring-boot-websocket-chat-demo</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
@@ -84,7 +83,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>
